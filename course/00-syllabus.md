@@ -1,0 +1,74 @@
+# Syllabus: Marketing, Customer and Strategic Analytics
+
+A twelve-module course that moves from the money behind a metric, through measurement and customer behaviour, to the organisational question of what analytics is for. It is written for working marketers and early-career analysts who can use a spreadsheet and are willing to read a little Python.
+
+The modules are not the same size. Some are a week of work, others an afternoon, and that unevenness reflects how much each topic really needs.
+
+**Status:** Module 1 is complete (lessons, code, tests, data, exercises, case study). Modules 2 to 12 are specified below and will be built in the order shown under "Build order".
+
+## Arc
+
+The course makes one argument in three movements. Metrics only mean something once tied to the economics of the business (Part I). Whether an effect is *caused* by marketing, and what customers do over time, are separate questions that need their own methods (Parts II and III). And none of it matters unless the organisation changes a decision because of it, which is a strategy and governance problem rather than a technical one (Part IV).
+
+## Part I: The economics under the metrics
+
+**Module 1. Unit economics and the marketing financial model** *(built)*
+Margin, break-even ROAS, loaded CAC, payback, LTV:CAC, spend ratio; why each simple formula fails and what replaces it. Pricing a consulting fee from the client's P&L.
+*Source basis:* HQ Digital financial-model guide and 17/27 Nov posts, extended with cohort analysis.
+
+**Module 2. Reading a P&L as a marketer**
+Contribution margin, fixed versus variable cost, operating leverage, working capital and why fast-growing brands run out of cash while profitable on paper.
+
+## Part II: Measurement and causation
+
+**Module 3. Measurement design and tracking foundations**
+Event taxonomy, GA4 data model, consent, identity, data-quality checks. Writing a measurement plan from a strategy.
+
+**Module 4. Attribution and its disagreements**
+Platform, analytics-tool, survey and blended views of the same sales; reconciliation as a skill.
+
+**Module 5. Experimentation and incrementality**
+A/B design and power, holdouts, geo-lift, why most ad tests are underpowered.
+
+**Module 6. Media mix modelling in practice**
+Adstock, saturation, priors, identifiability; fitting on synthetic data with a known truth.
+
+## Part III: Customers over time
+
+**Module 7. Cohorts, retention and repeat purchase**
+Retention curves, survival and BG-NBD style models, the cohort-versus-formula gap.
+
+**Module 8. Segmentation and customer value**
+RFM, clustering, out-of-sample validation of segments, probabilistic LTV.
+
+**Module 9. Situations, messages and creative testing**
+Turning "who is the audience" into "what are they going through now": review mining, angle design, test planning.
+
+## Part IV: Strategy and the AI-era toolkit
+
+**Module 10. Analytics strategy**
+Choices before KPIs; KPI trees; linking each metric to the assumption it tests; decision logs.
+
+**Module 11. Competitive and category intelligence**
+Ad-library and search-demand tracking, funnel-destination changes, composite scores and their sensitivity to weights.
+
+**Module 12. Analytics with AI, and checking it**
+LLM-assisted querying with ground-truth gates, AI-search visibility audits with confidence intervals, agentic reporting and where it should not be trusted.
+
+## Anchor reading (to be verified before each module is written)
+
+Named references are deliberately listed as candidates rather than citations, since each must be read before it is cited.
+
+- Unit economics and LTV: Fader and Hardie's work on probabilistic customer-base models (BG/NBD, Pareto/NBD).
+- Experimentation: Kohavi, Tang and Xu, *Trustworthy Online Controlled Experiments*.
+- Causal measurement: Gordon et al. on ad-effectiveness measurement and the gap between observational and randomised estimates.
+- MMM: published open-source documentation from the major MMM libraries.
+- Strategy: Rumelt, *Good Strategy / Bad Strategy*, for the strategy-versus-plan distinction that runs through Module 10.
+
+## Build order and reasoning
+
+1 is done. Then 7 and 8 (they reuse Module 1's data and deepen its main finding), then 4 and 5 (the causal core), then 2 and 3, then 6, 10, 9, 11, 12. Module 12 goes last because the tooling changes fastest and the verification habits it teaches depend on everything before it.
+
+## Assessment
+
+Each module ends with a short applied task and a written decision memo of no more than 500 words that states what the numbers support, what they do not, and what the reader should do. The memo is the real assessment. A correct calculation with no decision attached earns little.
