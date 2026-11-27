@@ -33,7 +33,7 @@ cd course/module-06-mmm/code
 python3 -m unittest -v      # 14 tests
 python3 generate.py         # regenerates ../data/weekly.csv (seeded) and prints the true ROIs
 python3 experiments.py      # the scenarios every lesson refers to (about 5 seconds)
-python3 profile.py          # profile analysis of each channel (about 10 seconds)
+python3 profile_roi.py         # profile analysis of each channel (about 10 seconds)
 ```
 
 ## About the data

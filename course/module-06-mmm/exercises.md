@@ -19,7 +19,7 @@ Change the generator so one channel follows a different response curve (for exam
 
 ## Exercise 4. Profile and plan (60 min)
 
-a. Run `profile.py` for each channel and tabulate the range of ROIs not rejected at the 95% level.
+a. Run `profile_roi.py` for each channel and tabulate the range of ROIs not rejected at the 95% level.
 b. Rank the channels by *value of an experiment*: roughly, how wide is the range multiplied by the spend at stake? Which would you test first?
 c. Design that experiment using Module 5's tools: choice of design (holdout or geo), duration, size, and the smallest effect it could detect.
 

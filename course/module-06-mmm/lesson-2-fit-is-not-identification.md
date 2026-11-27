@@ -32,7 +32,7 @@ A tempting explanation for weird MMM results is that the optimiser landed in a b
 
 ## What the data can and cannot say
 
-A *profile analysis* asks, for each possible value of a channel's ROI, how badly the data object to it. `profile.py` forces the model to a series of assumed ROIs, refits everything else, and reports how much the squared error rises, in units of the noise variance. A rise under about 3.84 means the value cannot be rejected at the 95% level.
+A *profile analysis* asks, for each possible value of a channel's ROI, how badly the data object to it. `profile_roi.py` forces the model to a series of assumed ROIs, refits everything else, and reports how much the squared error rises, in units of the noise variance. A rise under about 3.84 means the value cannot be rejected at the 95% level.
 
 | Channel | ROI values the data cannot reject | True ROI |
 |---|---|---|

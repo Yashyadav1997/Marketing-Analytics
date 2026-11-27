@@ -6,7 +6,7 @@ measured in units of the noise variance, says how strongly the data object to th
 Values whose error rise is under about 3.84 (the 95% point of a chi-square with one degree of
 freedom) cannot be ruled out. This assumes the noise variance is known (260^2 here).
 
-    python profile.py [channel]
+    python profile_roi.py [channel]
 """
 from __future__ import annotations
 

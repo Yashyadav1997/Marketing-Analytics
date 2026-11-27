@@ -4,7 +4,7 @@ A twelve-module course that moves from the money behind a metric, through measur
 
 The modules are not the same size. Some are a week of work, others an afternoon, and that unevenness reflects how much each topic really needs.
 
-**Status:** Modules 1, 4, 5, 6, 7 and 8 are complete (lessons, code, tests, exercises). Modules 2, 3 and 9 to 12 are specified below and will be built in the order shown under "Build order".
+**Status:** Modules 1, 3, 4, 5, 6, 7 and 8 are complete (lessons, code, tests, exercises). Modules 2 and 9 to 12 are specified below and will be built in the order shown under "Build order".
 
 ## Arc
 
@@ -21,8 +21,8 @@ Contribution margin, fixed versus variable cost, operating leverage, working cap
 
 ## Part II: Measurement and causation
 
-**Module 3. Measurement design and tracking foundations**
-Event taxonomy, GA4 data model, consent, identity, data-quality checks. Writing a measurement plan from a strategy.
+**Module 3. Measurement design and tracking foundations** *(built)*
+Deriving a tracking spec from a strategy, auditing an event export against it, reconciling analytics revenue to the ledger, identity stitching, and consent as a design constraint, on a simulated store with labelled defects.
 
 **Module 4. Attribution and its disagreements** *(built)*
 Why platform, analytics and finance numbers differ, what each credit rule assumes, scoring rules against a simulated world with known causal truth, reconciliation and calibration.
@@ -67,7 +67,7 @@ Named references are deliberately listed as candidates rather than citations, si
 
 ## Build order and reasoning
 
-1, 4, 5, 7 and 8 are done (7 and 8 share one simulated customer base; 4 and 5 share one simulated marketing world). The causal arc (4, 5, 6) is complete. Next 2 and 3, then 10, 9, 11, 12. Module 12 goes last because the tooling changes fastest and the verification habits it teaches depend on everything before it.
+1, 4, 5, 7 and 8 are done (7 and 8 share one simulated customer base; 4 and 5 share one simulated marketing world). The causal arc (4, 5, 6) and the measurement foundation (3) are complete. Next 2, then 10, 9, 11, 12. Module 12 goes last because the tooling changes fastest and the verification habits it teaches depend on everything before it.
 
 ## Assessment
 

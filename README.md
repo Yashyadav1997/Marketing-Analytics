@@ -14,6 +14,7 @@ research/
 course/
   00-syllabus.md            twelve modules in four parts, with build order
   module-01-unit-economics/ complete: lessons, exercises, case study, tested code, synthetic data
+  module-03-measurement/    complete: tracking spec, audit, ledger reconciliation, identity stitching
   module-04-attribution/    complete: credit rules vs causal truth, reconciliation, calibration
   module-05-experimentation/ complete: power, peeking, holdouts, geo-lift
   module-06-mmm/            complete: adstock, saturation, identifiability, calibration, marginal returns
@@ -25,7 +26,7 @@ course/
 
 1. Read `research/03-idea-backlog.md` for the map of ideas and why each scored as it did.
 2. Read `course/00-syllabus.md` for the arc.
-3. Work through Module 1, then 4, 5 and 6 (the causal arc: attribution, experiments, media mix; 4 and 5 share a simulated world), then 7 and 8 (shared simulated customer base). All code needs only Python 3.10+ and the standard library:
+3. Work through Module 1, then 3 (the data foundation), then 4, 5 and 6 (the causal arc: attribution, experiments, media mix; 4 and 5 share a simulated world), then 7 and 8 (shared simulated customer base). All code needs only Python 3.10+ and the standard library:
 
 ```bash
 cd course/module-01-unit-economics/code
@@ -44,12 +45,14 @@ Every module follows the same pattern (`python3 -m unittest`, then the scripts n
 | Idea backlog | done, scored |
 | Syllabus | done |
 | Module 1 | done, 10 tests passing |
+| Module 3 | done, 10 tests passing |
 | Module 4 | done, 12 tests passing |
 | Module 5 | done, 14 tests passing |
 | Module 6 | done, 14 tests passing |
 | Module 7 | done, 7 tests passing |
 | Module 8 | done, 13 tests passing |
-| Modules 2, 3, 9 to 12 | specified, not yet written |
+| Modules 2, 9 to 12 | specified, not yet written |
+| Product architecture note | done (`docs/product-architecture.md`), a planning document only |
 | Second research loop (YouTube, newsletter) | not started |
 
 ## Product direction
