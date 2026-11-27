@@ -4,7 +4,7 @@ A twelve-module course that moves from the money behind a metric, through measur
 
 The modules are not the same size. Some are a week of work, others an afternoon, and that unevenness reflects how much each topic really needs.
 
-**Status:** Module 1 is complete (lessons, code, tests, data, exercises, case study). Modules 2 to 12 are specified below and will be built in the order shown under "Build order".
+**Status:** Modules 1, 7 and 8 are complete (lessons, code, tests, data, exercises). Modules 2 to 6 and 9 to 12 are specified below and will be built in the order shown under "Build order".
 
 ## Arc
 
@@ -35,11 +35,11 @@ Adstock, saturation, priors, identifiability; fitting on synthetic data with a k
 
 ## Part III: Customers over time
 
-**Module 7. Cohorts, retention and repeat purchase**
-Retention curves, survival and BG-NBD style models, the cohort-versus-formula gap.
+**Module 7. Cohorts, retention and repeat purchase** *(built)*
+Cohort tables and their noise, censoring and exposure, the BG/NBD model fitted from scratch and tested on a holdout, and what breaks when a promotion violates its assumptions.
 
-**Module 8. Segmentation and customer value**
-RFM, clustering, out-of-sample validation of segments, probabilistic LTV.
+**Module 8. Segmentation and customer value** *(built)*
+RFM and its tie and tenure traps, holdout validation with more than one metric, value concentration, probabilistic customer value with shrinkage. Clustering is deferred to a later revision.
 
 **Module 9. Situations, messages and creative testing**
 Turning "who is the audience" into "what are they going through now": review mining, angle design, test planning.
@@ -67,7 +67,7 @@ Named references are deliberately listed as candidates rather than citations, si
 
 ## Build order and reasoning
 
-1 is done. Then 7 and 8 (they reuse Module 1's data and deepen its main finding), then 4 and 5 (the causal core), then 2 and 3, then 6, 10, 9, 11, 12. Module 12 goes last because the tooling changes fastest and the verification habits it teaches depend on everything before it.
+1, 7 and 8 are done (7 and 8 share one simulated customer base). Next 4 and 5 (the causal core), then 2 and 3, then 6, 10, 9, 11, 12. Module 12 goes last because the tooling changes fastest and the verification habits it teaches depend on everything before it.
 
 ## Assessment
 

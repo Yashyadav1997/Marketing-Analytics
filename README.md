@@ -14,13 +14,15 @@ research/
 course/
   00-syllabus.md            twelve modules in four parts, with build order
   module-01-unit-economics/ complete: lessons, exercises, case study, tested code, synthetic data
+  module-07-cohorts-retention/ complete: cohorts, censoring, BG/NBD from scratch, simulated customer base with ground truth
+  module-08-segmentation-value/ complete: RFM, holdout validation, concentration, probabilistic value
 ```
 
 ## Start here
 
 1. Read `research/03-idea-backlog.md` for the map of ideas and why each scored as it did.
 2. Read `course/00-syllabus.md` for the arc.
-3. Work through Module 1. Its code needs only Python 3.10+ and the standard library:
+3. Work through Module 1, then 7 and 8 (7 and 8 share a dataset). All code needs only Python 3.10+ and the standard library:
 
 ```bash
 cd course/module-01-unit-economics/code
@@ -29,6 +31,8 @@ python3 generate_cohorts.py
 python3 cohort_payback.py
 ```
 
+Modules 7 and 8 follow the same pattern (`python3 -m unittest`, then the scripts named in each module's README).
+
 ## Status
 
 | Piece | State |
@@ -36,8 +40,10 @@ python3 cohort_payback.py
 | Source research, first pass | done |
 | Idea backlog | done, scored |
 | Syllabus | done |
-| Module 1 | done, tests passing |
-| Modules 2 to 12 | specified, not yet written |
+| Module 1 | done, 10 tests passing |
+| Module 7 | done, 7 tests passing |
+| Module 8 | done, 13 tests passing |
+| Modules 2 to 6, 9 to 12 | specified, not yet written |
 | Second research loop (YouTube, newsletter) | not started |
 
 ## Caveats worth keeping in view
