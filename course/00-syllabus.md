@@ -4,7 +4,7 @@ A twelve-module course that moves from the money behind a metric, through measur
 
 The modules are not the same size. Some are a week of work, others an afternoon, and that unevenness reflects how much each topic really needs.
 
-**Status:** Modules 1, 4, 5, 7 and 8 are complete (lessons, code, tests, exercises). Modules 2, 3, 6 and 9 to 12 are specified below and will be built in the order shown under "Build order".
+**Status:** Modules 1, 4, 5, 6, 7 and 8 are complete (lessons, code, tests, exercises). Modules 2, 3 and 9 to 12 are specified below and will be built in the order shown under "Build order".
 
 ## Arc
 
@@ -30,8 +30,8 @@ Why platform, analytics and finance numbers differ, what each credit rule assume
 **Module 5. Experimentation and incrementality** *(built)*
 Power and sample size, the peeking problem, user-level holdouts versus naive comparison, geo-lift with permutation inference, reporting uncertainty honestly.
 
-**Module 6. Media mix modelling in practice**
-Adstock, saturation, priors, identifiability; fitting on synthetic data with a known truth.
+**Module 6. Media mix modelling in practice** *(built)*
+Adstock, saturation and controls fitted from scratch on three simulated years with known channel contributions; why a model that predicts well can still misallocate credit; profile analysis; calibration with lift tests; average versus marginal returns. Bayesian priors are named as the standard next step but not implemented.
 
 ## Part III: Customers over time
 
@@ -67,7 +67,7 @@ Named references are deliberately listed as candidates rather than citations, si
 
 ## Build order and reasoning
 
-1, 4, 5, 7 and 8 are done (7 and 8 share one simulated customer base; 4 and 5 share one simulated marketing world). Next 6 (media mix modelling, which completes the causal arc), then 2 and 3, then 10, 9, 11, 12. Module 12 goes last because the tooling changes fastest and the verification habits it teaches depend on everything before it.
+1, 4, 5, 7 and 8 are done (7 and 8 share one simulated customer base; 4 and 5 share one simulated marketing world). The causal arc (4, 5, 6) is complete. Next 2 and 3, then 10, 9, 11, 12. Module 12 goes last because the tooling changes fastest and the verification habits it teaches depend on everything before it.
 
 ## Assessment
 
